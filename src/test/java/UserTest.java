@@ -2,7 +2,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-class UserTest {
+public class UserTest {
     @Test
     public void toStringTest() {
         User user = new User("Test", "Test", "Test");
