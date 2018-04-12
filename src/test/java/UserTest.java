@@ -1,7 +1,9 @@
-import static org.junit.jupiter.api.Assertions.*;
+import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
 
 class UserTest {
-    @org.junit.jupiter.api.Test
+    @Test
     public void toStringTest() {
         User user = new User("Test", "Test", "Test");
 
